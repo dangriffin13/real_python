@@ -1,5 +1,7 @@
 import unittest
 import pandas as pd
+import json
+import requests
 from analyze_football_csv import read_data, pandas_csv, calc_goal_difference, calc_absolute_val_goal_diff, row_with_min_goal_diff, team_name_min_goal_diff
 
 
